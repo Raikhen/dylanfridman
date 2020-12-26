@@ -1,0 +1,27 @@
+/* Elements */
+body { margin: 2em; font-family: 'Open Sans', sans-serif; }
+ul { margin: .2em 0; }
+input { display: block !important; font-family: 'Open Sans', sans-serif; }
+
+textarea {
+  font-family: 'Open Sans', sans-serif;
+  resize: none;
+  margin-bottom: .8em;
+  width: 400px;
+  height: 200px;
+}
+
+/* Classes */
+.half { width: 50%; }
+.center { text-align: center; }
+.me { width: 200px; cursor: pointer; }
+.intro { margin-top: 1em; }
+.emoji-btn { font-size: 1.5em; }
+.mid-btn { margin: 0 0.4em; }
+.list-title { font-weight: bold; }
+.list-block { margin-bottom: 2em; }
+.climbing { margin-bottom: 1.5em; width: 300px; }
+.more-btns { margin-top: .5em; }
+.lft-mrg { margin-left: .3em }
+.rgt-mrg { margin-right: .3em }
+.contact-title { font-weight: bold; margin: 1em 0; }

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Fylan Dridman's website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+  </head>
+  <body class="center">
+    <img class="me" src="./photo.png" />
+    <p class="intro">👋🏼 Hey!</p>
+    <div class="btns">
+      <a class="button emoji-btn rgt-mrg" href="./math.html">🤓</a>
+      <a class="button emoji-btn lft-mrg" href="./mountain.html">🧗‍♂️</a>
+    </div>
+    <div class="more-btns">
+      <a class="button emoji-btn rgt-mrg" href="./recommended.html">📚</a>
+      <a class="button emoji-btn lft-mrg" href="./thoughts.html">✍</a>
+    </div>
+    <script>
+      let n = 0
+      let urls = ['./locoman.jpg', './photo.png']
+      let img = document.getElementsByTagName('img')[0]
+
+      let changePhoto = () => {
+        img.src = urls[n % 2];
+        n++
+      }
+
+      img.addEventListener('click', changePhoto)
+
+      console.log('You\'ve found this secret message, you win 20 Dylanpoints.')
+    </script>
+  </body>
+</html>
